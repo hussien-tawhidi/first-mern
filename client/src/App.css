@@ -1,38 +1,51 @@
+body {
+  background-color: aliceblue;
+}
 .App {
-  text-align: center;
+  padding-top: 1rem;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.forms {
+  width: 30vw;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.custome-input {
+  border: none;
+  border-radius: 0;
+  width: 25vw;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.562);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.read-data {
+  margin: 1rem;
+}
+.cutoms-list {
+  margin-top: 2rem;
+}
+.sub-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.sub-title span {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.562);
+}
+.title {
+  font-size: 30px;
+  margin: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.562);
+}
+.edite {
+  margin-right: 1rem;
 }
