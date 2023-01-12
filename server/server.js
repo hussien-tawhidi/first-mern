@@ -3,7 +3,6 @@ import mongoose from "mongoose";
 import FreindsModels from "./models/friends.js";
 import cors from "cors";
 import dotenv from "dotenv";
-import topics from "./models/topics.js";
 
 dotenv.config();
 
